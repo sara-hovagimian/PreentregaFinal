@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main id="mainContact" class="mainContact">
+        <h1>Contacto</h1>
+        <form id="formulario">
+            <label for="nombreForm">Ingrese su Nombre</label>
+            <input type="text" id="nombreForm">
+            <label for="mailForm">Ingrese su mail</label>
+            <input type="email" id="mailForm">
+            <label for="telefonoForm">Ingrese su telefono</label>
+            <input type="text" id="telefonoForm">
+            <label for="comentarioForm">Ingrese su comentario</label>
+            <textarea id="comentarioForm"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <!--Para incluir fecha al pie-->
+        <h4 id="fecha"></h4>
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/encabezado.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.css">
+  <title>Electro Mundo
+  </title>
+</head>
+
+<body>
+  <header id="header"></header>
+  <h1>Productos</h1>
+<!--productos traidos del archivo JSON con fetch-->
+<div class="tarjetas" id="cards"></div>
+
+
+
+  <div id="product-list">
+    <!-- Los productos se van a listar acá -->
+  </div>
+  <div class="line"></div>
+  <h3 class="cart_title">Carrito de Compras</h3>
+  <div id="cart">
+    <!-- El carrito se va a mostrar acá -->
+  </div>
+  <p id="prodNoEncontrado"></p>
+  <div id="totalCompra">
+    <!--Aca se despliega el total de la compra-->
+  </div>
+  <div id="finalCompradiv">
+    <!--Aca se solicita finalizar de la compra -->
+  </div>
+  <p id="errorCantCuotas"></p>
+  <div id="calculoFinanciado">
+    <!--Aca se muestra el importe financiado y demas detalles de la compra -->
+  </div>
+
+<!--cotizacion dolar con APImuestra los dolares en la pagina-->
+<div id="cotizacionDolar">
+   <h3 id="dolarOficialVenta"></h3>
+</div>
+
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/encabezado.js"></script>
+  <script src="js/index.js"></script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+[
+    {
+        "codigo": 101,
+        "descripcion": "Cocina",
+        "precio": 300000,
+        "imagen": "./assets/cocina.png"
+    },
+    {
+        "codigo": 103,
+        "descripcion": "Lavarropa",
+        "precio": 400000,
+        "imagen": "./assets/lavarropas.png"
+    },
+    {
+        "codigo": 104,
+        "descripcion": "Horno",
+        "precio": 20000,
+        "imagen": "./assets/horno.png"
+    },
+    {
+        "codigo": 105,
+        "descripcion": "Batidora",
+        "precio": 20000,
+        "imagen": "./assets/batidora.png"
+    },
+    {
+        "codigo": 106,
+        "descripcion": "Cafetera",
+        "precio": 42000,
+        "imagen": "./assets/cafetera2.png"
+    },
+    {
+        "codigo": 107,
+        "descripcion": "Licuadora",
+        "precio": 33000,
+        "imagen": "./assets/licuadora.png"
+    },
+    {
+        "codigo": 108,
+        "descripcion": "Televisor",
+        "precio": 450000,
+        "imagen": "./assets/tv.png"
+    },
+    {
+        "codigo": 109,
+        "descripcion": "Estufa",
+        "precio": 18000,
+        "imagen": "./assets/estufa.png"
+    },
+    {
+        "codigo": 110,
+        "descripcion": "Tostadora",
+        "precio": 12000,
+        "imagen": "./assets/tostadora.png"
+    }
+]
+
